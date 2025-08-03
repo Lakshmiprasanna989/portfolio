@@ -339,7 +339,14 @@ label {
   font-size: 50px;
   font-weight: bold;
   color: #ff4081; /* or any color you like */
-  z-index: 1000;
+  z-index: 1000;#animated-text {
+  color: #ff6f61;
+  font-weight: bold;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
 }
